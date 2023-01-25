@@ -16,7 +16,23 @@
 }
 
 .posterImg{
+    cursor: pointer;
     max-height: 250px;
     margin-right: 10px;
 }
+
+.posterImg:hover{
+    transform: scale(1.04);
+}
+
+.smallPoster{
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+}
+
+.smallPoster:hover{
+    transform: scale(1.04);
+}
+
 
